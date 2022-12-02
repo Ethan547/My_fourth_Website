@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table.css">
+    <title>Table</title>
+</head>
+<body>
+    <link rel="stylesheet" href="main.css">
+    <div title="This is the naigation bar" class="navbar"> 
+        <ul>
+            <li title="This takes you to the homepage"> <a href="index.html" > Home </a> </li>
+            <li title="This takes you to the table"> <a href="table.html" > Table </a> </li>
+            <li title="This takes you to the profile page"> <a href="Profile.html" > Profile </a> </li>
+            <li title="This shows you the extras" > <a href="#" > Extras</a> </li>
+        </ul>
+    </div>
+    <div id="screen_heading">
+        <h1>Commodities</h1>
+        <hr>
+            <nav id="navbar">
+                <ul>
+                    <li>MARKETS</li>
+                    <li>BUSINESS</li>
+                    <li>ECONOMY</li>
+                    <li>GREEN MARKETS</li>
+                    <li>HOT STOCKS</li>
+                    <li>MORE TOPICS</li>
+                    <li><img src="Static/download_resized_50_50.png"alt=""width="15"></li>
+                </ul>
+            </nav>
+    </div>
+    <div id="outer_container">
+        <div id="content_holder">
+            <div id="left_container">
+                <h3>THOMSON REUTERS</h3>
+                <div id="table_container">
+                    <h2><img src="static/download_resized_50_50.png" alt="Just a drop down" width="15"> 359.42</h2>
+                    <table id="thomson_reuters_table">
+                        <thead>
+                            <tr>
+                                <th width="120">Change</th>
+                                <th width="120">Open</th>
+                                <th width="120">High</th>
+                                <th width="120">Low</th>
+                                <th width="120">Times</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td width="120">-3.76</td>
+                                <td width="120">350.76</td>
+                                <td width="120">99.76</td>
+                                <td width="120">4.76</td>
+                                <td width="120">04/15</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="right_container">
+                <section id="nav_section">
+                    <h2>Markets</h2>
+                    <ul>
+                        <li>U.S.</li>
+                        <li>EUROPE</li>
+                        <li>ASIA</li>
+                        <li>SECTORS</li>
+                    </ul>
+                    <span id="sponsor_span">
+                        <p>SPONSORED BY</p>
+                        <h4 id="sponsor_badge">Trade Forex with Citi.</h4>
+                    </span>
+                </section>
+                <span id="search_span" style="display:flex;">
+                    <input id="search" name="search" type="text"
+                    placeholder="Enter Company Name or Symbol">
+                    <label for="search">Search</label>
+                </span>
+                <span class="table_subheadings">
+                    <h3>Market Indices</h3>
+                    <p> <small>All Indices</small> </p>
+                </span>
+                <table id="market_indices_table">
+                    <tr>
+                        <th>DOW</th>
+                        <td class="right_table">
+                            <h4>12,189.14</h4>
+                            <p>-152.67</p>
+                            <p>-1.67%</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>S&P 500</th>
+                        <td class="right_table">
+                            <h4>1,305.14</h4>
+                            <p>-152.67</p>
+                            <p>-1.67%</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>NASDAQ</th>
+                        <td class="right_table">
+                            <h4>12,189.14</h4>
+                            <p>-152.67</p>
+                            <p>-1.67%</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>TR US INDEX</th>
+                        <td class="right_table">
+                            <h4>12,189.14</h4>
+                            <p>-152.67</p>
+                            <p>-1.67%</p>
+                        </td>
+                    </tr>
+                </table>
+    
+                <span class="table_subheadings">
+                    <h3>Currencies</h3>
+                    <p> <small>All Currencies</small> </p>
+                </span>
+                <table id="currencies_table">
+                    <tr>
+                        <th>EUR/USD</th>
+                        <td>
+                            <p>1.423</p>
+                            <p>-1.35%</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>GBP/USD</th>
+                        <td>
+                            <p>1.653</p>
+                            <p>-0.45%</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>USD/JPY</th>
+                        <td>
+                            <p>82.423</p>
+                            <p>-0.65%</p>
+                        </td>
+                    </tr>
+                </table>
+                
+                <span class="table_subheadings">
+                    <h3>Commodities</h3>
+                    <p> <small>All Commodities</small> </p>
+                </span>
+                <table id="commodities_table">
+                    <tr>
+                        <th>GOLD</th>
+                        <td>
+                            <p>1,496.43</p>
+                            <p>+10.20</p>
+                            <p>+0.65%</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

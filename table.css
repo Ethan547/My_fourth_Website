@@ -1,0 +1,46 @@
+body,div,section,ul,li,p,small,span,table,th,td,
+        h1,h2,h3,h5,h6
+    {
+        padding: 0;
+        margin: 0;
+    }
+
+    #navbar > ul{
+        display: flex;
+        list-style: none;
+        /* text-decoration: capitalise; */
+    }
+    #navbar{
+        width:50%;
+        position: relative;
+        left:10%;
+    } 
+
+li{
+    padding-left: 10px
+    color
+}
+#screen_heading{
+    align-items:center;
+    text-align:center;
+}
+#outer_container{
+    width: 100vw;
+    display: flex;
+}
+#left_container{
+    width: 60%;
+    height:90vh;
+}
+#right_container{
+    width: 40%;
+    height: 90vh;
+    background-color: beige;
+}
+#table_container{
+    display: flex;
+}
+table{
+    width:max-content;
+    width:100%;
+}
